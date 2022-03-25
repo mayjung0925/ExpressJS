@@ -5,7 +5,7 @@ const fs = require('fs');
 
 let app = express();
 
-// let dataPath =path.join(__dirname,'./log.json')
+//middleware that console.logs every req.originalUrl and pass flow to the next function
 // app.use((req,res,next)=>{
 //     console.log(req.originalUrl);
 //     next();
